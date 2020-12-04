@@ -1,0 +1,24 @@
+.new-book-root {
+    height: 100vh;
+    max-width: 1000px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+#enviar {
+    margin: 10px 0;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    border-color: #EB8628;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #EB8628;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#enviar:hover {
+    color: white;
+    background-color: #da6d07;
+}

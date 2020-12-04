@@ -1,0 +1,125 @@
+.product-list {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.product-list h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-list article {
+    background: #ffffff;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#header-card {
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#lixo {
+    width: 20px;
+    cursor: pointer;
+}
+
+.product-list article p {
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.product-list article a.button {
+    border: none;
+}
+
+.product-list article a.button:hover {
+     background-color: white;
+}
+
+#phone {
+    display: flex;
+    justify-content: space-between;
+}
+
+#price {
+    font-size: 20px;
+    font-weight: bold;    
+    color: rgb(53, 52, 52);
+}
+
+.product-list article a {
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #EB8628;
+    background: none;
+    margin-top: 10px;
+    color: #EB8628;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.product-list article a:hover {
+    background-color: #9E520B;
+    color: #ffffff;
+}
+
+.product-list .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.product-list .actions button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #da552f;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.product-list .actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.product-list .actions button:hover {
+    opacity: 0.7;
+}
+
+.product-list .actions button[disabled]:hover {
+    opacity: 0.5;
+}
+
+@media (min-width: 786px) {
+    .product-list {
+        max-width: 90%;
+    }
+    
+    #productsAll {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2, 1fr);    
+    }
+}
+
+.hide {
+    display: none;
+}
