@@ -19,7 +19,7 @@
 ## ❔ Sobre o projeto
 
  Adicionar livros para vender, site que ajuda as pessoas a venderem livros usados e encontar livros com um preço acessível.
- Feito após ter assistido o curso de Node JS e React da rocketseat. Usei base do curso para realizar o projeto, também contei com a ajuda [Rhenan Dias](https://github.com/rhenandias)
+ Feito após ter assistido o curso de Node JS e React da rocketseat. Usei base do curso para realizar o projeto.
 
 
 ## 🛠 Techs
